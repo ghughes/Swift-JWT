@@ -56,7 +56,7 @@ public struct JWTSigner {
     
     let signerAlgorithm: SignerAlgorithm
 
-    init(name: String, signerAlgorithm: SignerAlgorithm) {
+    public init(name: String, signerAlgorithm: SignerAlgorithm) {
         self.name = name
         self.signerAlgorithm = signerAlgorithm
     }
